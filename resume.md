@@ -56,7 +56,7 @@
 ### JLox Interpreter
 Tree-walk interpreter in Java for the Lox language
 ### LoveBoxLink
-Arduino, C++, live drawing board for intimate communication across the world
+Arduino, C++, client-server, live drawing board
 ### Advent of Code
 - Finished to day 18 in 2022 with Python and some C
 - Finished all of 2023 with Python
