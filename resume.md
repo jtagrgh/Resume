@@ -14,27 +14,31 @@
 - __Date__: Jan 2024 – Apr 2024
 - __Title__: Embedded Software Intern
 - __Location__: Antrim, County Antrim, Northern Ireland
-- Co-maintained the Evidence Evolution—Linux, C++, parallel scheduling, clinical analysis robot; made impactful improvements with sparse information and minimal guidance
-- Uncovered and patched fatal bug in Linux cron job; increased uptime by 10%
-- Repurposed sensors and augmented task scheduling to gracefully handle irregular hardware fault
+- Helped make the Evidence Evolution reliable—very old, Linux, C++, parallel scheduling, clinical analysis robot
+- Gained a deep understanding of the 500K+ lines-of-code machine software in the absence of senior developers
+- Quickly linked chemical analysis to C++ code to explain results for chemists and biomedical engineers
+- Repurposed sensors and augmented task scheduling code to gracefully handle an irregular hardware fault
+- Uncovered and patched a fatal bug in a Linux cron job that nobody found for years; increased uptime by 10%
 - Collaborated with operators to remove pain points in Qt GUI; modified data categorization; improved user efficiency
-- Streamlined release management by integrating and educating on git-flow procedure
+- Streamlined release management by integrating and educating on git-flow procedure best practices
+- Transferred my key findings about fixing legacy software to the developers of an up-coming product line
 
 ### ARUP
 - __Date__: Jan 2023 – Apr 2023
 - __Title__: Software Intern
 - __Location__: Toronto, Ontario, Canada
-- Developed new features for MassMotion—C++, desktop application for 3D pedestrian simulation; routinely revealed alternative ways to write more meaningful code with modern C++20 features
-- Built fast indent reformat feature for internal Python script editor to reduce code sharing friction for users
-- Added live syntax error feedback to script editor using Tree-sitter to reduce edit-compile-test loop
-- Improved maintainability of script editor search by isolating and unit testing main data structure (circular buffer)
-- Demonstrated strong communication skills with praised end-of-term recap presentation
+- Developed new features for MassMotion—C++, desktop application for 3D pedestrian simulation
+- Routinely showed alternative ways to write more expressive code with modern C++20 features
+- Built an indent reformat feature for the internal Python script editor to reduce code sharing friction for users
+- Added live syntax error feedback to the script editor using Tree-sitter to reduce the edit-compile-test loop
+- Improved maintainability of the script editor search by isolating and unit testing its main data structure (circular buffer)
+- Demonstrated strong communication skills with well-received end-of-term presentation
 
 ### Evertz
 - __Date__: May 2022 – Aug 2022
 - __Title__: Embedded Systems Intern
 - __Location__: Burlington, Ontario, Canada
-- Validated and improved MIO-BLADE-Z21—Embedded, Linux, C++, Audio/Video Processing Device; became intimate with GNU tools and embedded Linux development
+- Validated and improved the MIO-BLADE-Z21—Embedded, Linux, C++, Audio/Video Processing Device
 - Prototyped library with C++ templating and subject-observer pattern to simplify inter-process callbacks
 - Researched and reported on latest IEEE video payload specs; confirmed compliance
 
@@ -42,8 +46,8 @@
 - __Date__: Sept 2021 – Dec 2021
 - __Title__: Software Intern
 - __Location__: Mississauga, Ontario, Canada
-- Co-architected live data dashboard; leveraged Python, and AWS Lambda for cost efficiency; eliminated reporting time
-- Integrated GitLab CI/CD pipeline into dashboard development; allowed consistent error-free deployment
+- Co-architected a live data dashboard; leveraged Python, and AWS Lambda for cost efficiency; eliminated reporting time
+- Integrated GitLab CI/CD pipeline into the dashboard development; allowed consistent error-free deployment
 
 ### Demand Power
 - __Date__: Jan 2021 – Apr 2021
