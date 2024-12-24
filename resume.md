@@ -61,8 +61,3 @@ Arduino, C++, live drawing board for intimate communication across the world
 - Finished to day 18 in 2022 with Python and some C
 - Finished all of 2023 with Python
 - Currently at day 21 in 2024 with Python
-### Course Projects 
-- FPGA Systolic Array
-- FPGA WAV Player
-- RTOS
-- HDL Compiler
