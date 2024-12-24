@@ -57,6 +57,9 @@
 Tree-walk interpreter in Java for the Lox language
 ### LoveBoxLink
 Arduino, C++, client-server, live drawing board
+### Engineering Capstone
+- Small, Low cost, embedded health device for reminding users to stand
+- Designing activity detection algorithm with Python prototype and C implementation
 ### Advent of Code
 - Finished to day 18 in 2022 with Python and some C
 - Finished all of 2023 with Python
