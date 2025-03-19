@@ -1,13 +1,13 @@
 \documentclass{article}
+\usepackage{cmbright}
 \usepackage{parskip}
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=0.7in]{geometry}
 \usepackage{enumitem}
 \newenvironment{mysection}[1]
 { {\large #1}
 
 	\vspace{-1em}
 	\rule{\linewidth}{0.4pt} 
-
 } { \vspace{1em} }
 
 \newenvironment{mylist}
@@ -18,21 +18,25 @@
 \pagenumbering{gobble}
 
 \begin{center}
-{\huge Jakob Koblinsky}
+{\Huge Jakob Koblinsky}
 
 jakob.koblinsky@gmail.com \quad github.com/jtagrgh
 \end{center}
 
-\vspace{0.25in}
+% \vspace{0.25in}
 
 \begin{mysection}{Education}
-University of Waterloo, BASc Computer Engineering (2025)
+\textit{University of Waterloo}, BASc Computer Engineering (2025)
+\end{mysection}
+
+\begin{mysection}{Skills}
+C, C++, Linux, Embedded, Python, Math
 \end{mysection}
 
 \begin{mysection}{Experience}
-Randox Laboratories \hfill Jan 2024 – Apr 2024 \\
+\textit{Randox Laboratories} \hfill Jan 2024 – Apr 2024 \\
 Embedded Software Intern \hfill Antrim, Northern Ireland
-\begin{itemize}[noitemsep,left=0pt,label={--}]
+\begin{itemize}[noitemsep,left=0pt,label={-}]
 	\item 
 	Mastered legacy C++ codebase for Evidence Evolution—medical robot,
 	enabling critial bug fixes that increased uptime by 30\%, 
@@ -48,46 +52,52 @@ Embedded Software Intern \hfill Antrim, Northern Ireland
 \end{itemize}
 \vspace{1em}
 
-Arup \hfill Jan 2023 – Apr 2023 \\
+\textit{Arup} \hfill Jan 2023 – Apr 2023 \\
 Software Intern \hfill Toronto, Ontario, Canada
-\begin{itemize}[noitemsep,left=0pt,label={--}]
-	\item Developed new features for MassMotion—C++, desktop application for 3D pedestrian simulation
-	\item Researched and presented ways to write expressive code with new C++20 features
-	\item Built indent reformat feature for Python script editor to improve user experience
-	\item Added live syntax error feedback to script editor using Tree-sitter to reduce the edit-compile-test loop
-	\item Improved maintainability of script editor by isolating and unit testing main data structure
-	\item Demonstrated strong communication skills with well-received end-of-term presentation
+\begin{itemize}[noitemsep,left=0pt,label={-}]
+	\item
+	Improved maintainability of MassMotion—Arup’s principal C++ Qt desktop software,
+	establishing thorough test coverage for recent features,
+	by redesigning, modularizing, and unit testing main components of search function
+	\item
+	Enlarged team and personal C++ toolkit, 
+	increasing appearance of functional C++20 features in merged code, 
+	by personal research, initiating team discussions, and prototyping with new techniques
+	\item
+	Clearly and engagingly communicated new product features to 50+ non technical employees,
+	producing an array of praise,
+	by giving well structured presentation on personal contributions at end of term
 \end{itemize}
 \vspace{1em}
 
-Evertz Microsystems \hfill May 2022 – Aug 2022 \\
+\textit{Evertz Microsystems} \hfill May 2022 – Aug 2022 \\
 Embedded Systems Intern \hfill Burlington, Ontario, Canada
-\begin{itemize}[noitemsep,left=0pt,label={--}]
+\begin{itemize}[noitemsep,left=0pt,label={-}]
 	\item Validated and improved MIO-BLADE-Z21—Embedded, Linux, C++, Audio/Video Processing Device
 	\item Prototyped library with C++ templating and subject-observer pattern to simplify inter-process callbacks
 	\item Researched and reported on latest IEEE video payload specs; confirmed compliance
 \end{itemize}
 \vspace{1em}
 
-Genellipse \hfill Sept 2021 – Dec 2021 \\
+\textit{Genellipse} \hfill Sept 2021 – Dec 2021 \\
 Software Intern \hfill Mississauga, Ontario, Canada
-\begin{itemize}[noitemsep,left=0pt,label={--}]
+\begin{itemize}[noitemsep,left=0pt,label={-}]
 	\item Transformed expensive data pipeline into cheap live data dashboard with Python and AWS 
 	\item Integrated GitLab-to-AWS CI/CD pipeline for consistent deployment
 \end{itemize}
 \vspace{1em}
 
-Demand Power Group Inc \hfill Jan 2021 – Apr 2021 \\
+\textit{Demand Power Group Inc} \hfill Jan 2021 – Apr 2021 \\
 Data Analysis Intern \hfill Toronto, Ontario, Canada
-\begin{itemize}[noitemsep,left=0pt,label={--}]
+\begin{itemize}[noitemsep,left=0pt,label={-}]
 	\item Implemented genetic algorithm in Python for battery use optimization; provided revenue stream insight
 	\item Analyzed client energy data using Python Pandas and presented findings to COO
 \end{itemize}
 \end{mysection}
 
 \begin{mysection}{Personal}
-\begin{itemize}[noitemsep,left=0pt,label={--}]
-	\item Finished Advent of Code 2024, 2023, and most of 2022 all in Python and C
+\begin{itemize}[noitemsep,left=0pt,label={-}]
+	\item Finished Advent of Code 2024, 2023, and 2022 in Python and C
 	\item Enjoy math---currently taking non-degree course in Real Analysis
 \end{itemize}
 \end{mysection}
